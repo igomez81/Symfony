@@ -1,0 +1,7 @@
+default_pruebas:
+   path: /test
+   controller: App\Controller\DefaultController::tests
+default_login:
+   path: /login
+   controller: App\Controller\DefaultController::login
+   methods:   [POST]
